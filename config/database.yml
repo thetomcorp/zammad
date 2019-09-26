@@ -1,4 +1,4 @@
- this is a database config sample for zammad ready to use with a postgresql db
+# this is a database config sample for zammad ready to use with a postgresql db
 # copy or symlink this file to config/database.yml to use it
 
 default: &default
