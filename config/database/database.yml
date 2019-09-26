@@ -11,8 +11,8 @@ default: &default
   ##### postgresql config #####
 
   adapter: postgresql
-  # username: zammad
-  # password:
+   username: zammad
+   password: zammad
 
   #### mysql config #####
 
@@ -24,13 +24,13 @@ production:
   <<: *default
   database: zammad_production
 
-development:
-  <<: *default
-  database: zammad_development
+#development:
+ # <<: *default
+ # database: zammad_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-  <<: *default
-  database: zammad_test
+#test:
+#  <<: *default
+#  database: zammad_test
