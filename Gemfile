@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'http://sc-repo.corning.com/repository/rubygems/'
 
 # core - base
 ruby '2.4.5'
