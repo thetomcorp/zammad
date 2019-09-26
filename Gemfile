@@ -1,7 +1,8 @@
-source 'http://sc-repo.corning.com/repository/rubygems/'
+#source 'http://sc-repo.corning.com/repository/rubygems/'
+source 'https://rubygems.org'
 
 # core - base
-ruby '2.4.5'
+ruby '2.4.6'
 gem 'rails', '5.1.5'
 
 # core - rails additions
