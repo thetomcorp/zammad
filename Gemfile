@@ -5,6 +5,7 @@ ruby '2.5.5'
 gem 'rails', '5.2.3'
 
 # core - rails additions
+gem 'actionpack'
 gem 'activerecord-import'
 gem 'activerecord-session_store'
 gem 'bootsnap', require: false
