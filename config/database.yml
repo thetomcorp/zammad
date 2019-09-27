@@ -13,6 +13,7 @@ default: &default
   adapter: postgresql
   username: zammad
   password: zammad
+  host: postgresql.test.svc
 
   #### mysql config #####
 
